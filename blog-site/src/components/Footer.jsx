@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <div className="text-lg h-dvh text-center flex items-end justify-center">
-            <p>Copyright &copy; Md. Mamun - <strong>2024</strong></p>
+        <div className="h-dvh text-center flex items-end justify-center">
+            <p>কপিরাইট &copy; মোঃ মামুন - <strong>২০২৪</strong></p>
         </div>
     );
 };

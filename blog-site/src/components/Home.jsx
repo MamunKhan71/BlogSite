@@ -6,7 +6,9 @@ const Home = () => {
     return (
         <div className='container mx-auto'>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className='w-full h-dvh border border-dashed rounded-xl mt-4'>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
